@@ -4,16 +4,13 @@ Friend Communication System using Node.JS
 
 Technology
 ---
-1. NodeJs
-3. MongoDB
-*Node.js version 12.16.3
-MongoDB version 4.2.0
-Express version 4.16.1
-Bootstrap version 4.4.1
-FontAwesome version 5.13.0
-Stripe API v3: used for payment in the checkout page
-Mapbox API: used to show the map in the about us page
-AdminBro: used and customized to implement the admin panel
-Nodemailer: used to send emails from the contact us form
-Passport: used for authentication
-Express Validator: used for form validation
+1. Node.js version 10.19.0
+2. MongoDB version 3.6.2
+3. Express version 4.16.1
+4. Bootstrap version 4.4.1
+5. Cookie-parser version 1.4.4
+6. Morgan version 1.9.1
+7. Jade version 1.11.0
+8. AdminBro: used and customized to implement the admin panel.
+9. Passport: used for authentication
+10. Express Validator: used for form validation
