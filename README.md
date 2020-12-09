@@ -4,7 +4,9 @@ Friend Communication System using Node.JS
 Introduction
 ---
 A virtual communication website using Node js, Express js and Mongoose. <br />
+<br />
 ![Members](https://github.com/RefaelBeker7/node-friend-communication-system/blob/main/Members.png)
+<br />
 [node-friend-communication-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
 
 
