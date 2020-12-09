@@ -34,6 +34,13 @@ Admins can do the following:
 - Login or logout to the admin panel
 - View all the members stored in the database. They can view/add/edit/delete members(users).
 
+Database
+---
+Model directory created using mongoose.
+Schema:
+--
+
+
 
 
 
