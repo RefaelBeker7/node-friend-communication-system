@@ -21,24 +21,33 @@ Technology
 
 Features
 ---
-The application displays a virtual bags store that contains virtual products and contact information.
+The application displays a virtual bags store that contains virtual products and contact information.<br />
 
-Users can do the following:
+**Users can do the following:**
 
 - Create an account, login or logout
 - Search other members by phone number or name.
 - Private pages that are only accessible after successful login.
 
-Admins can do the following:
+**Admin can do the following:**
 
 - Login or logout to the admin panel
-- View all the members stored in the database. They can view/add/edit/delete members(users).
+- View all the members stored in the database. They can view/edit/delete members(users).
 
 Database
 ---
 Model directory created using mongoose.<br />
 
 **Schema:**
+- username (String, by index)
+- password (String)
+- phone (String)
+- name (String - full name)
+- gender (String)
+- daysChecked (Boolean[])
+- profileimage (String)
+- adminFlag (Boolean)
+
 
 
 
