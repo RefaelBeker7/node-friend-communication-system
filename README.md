@@ -37,7 +37,7 @@ Admins can do the following:
 Database
 ---
 Model directory created using mongoose.
-**Schema:**
+***Schema:***
 
 
 
