@@ -45,7 +45,7 @@ Database
 ---
 Model directory created using mongoose.<br />
 
-**Schema:**
+**User-Schema:**
 - username (String, by index)
 - password (String)
 - phone (String)
