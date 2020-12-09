@@ -1,0 +1,15 @@
+extends layout
+
+doctype html
+html(lang='en')
+
+block content
+  if user.adminFlag
+    h1 Admin Welcome Page
+  else
+    h1 Welcome Page
+    
+  p Welcome to our site.
+    if user.adminFlag
+      p #{user.profileimage} 
+    

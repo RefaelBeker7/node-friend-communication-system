@@ -1,0 +1,10 @@
+extends layout
+
+doctype html
+html(lang='en')
+
+block content
+  h1 About Us
+  p Welcome to About page
+  if user.adminFlag
+    p #{user.profileimage}

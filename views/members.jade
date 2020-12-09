@@ -1,0 +1,58 @@
+extends layout
+
+doctype html
+html(lang='en')
+
+block content
+  if user.adminFlag
+    h1 Admin Members Area
+  else
+    h1 Members Area
+    
+  p Welcome to the members area
+      
+  br
+  p.lead Search Inputs Options
+  div.input-group.md-form.form-sm.form-2.pl-0
+    input.form-control.my-0.py-1.amber-border(id="inputFirstName", type="text", placeholder="Search by Full Name..", aria-label="Search", onkeyup="searchByNameOrPhone()")
+    input.form-control.my-0.py-1.amber-border(id="inputSecond", type="tel", placeholder="Search by Phone Number..", aria-label="Search", onkeyup="searchByNameOrPhone()")
+  table.table.table-striped(id="usersTable")
+      thead
+          tr.header
+              th #
+              th Full Name
+              th Phone
+              th Gender
+              th Sunday
+              th Monday
+              th Tuesday
+              th Wednesday
+              th Thursday
+              th Friday
+              th Saturday
+              th Image
+      - for(var i=0; i<usersData.length; i++) {
+        - if(usersData[i].name === 'admin') continue;
+          tr
+              td #{i}
+              td #{usersData[i].name}
+                p(id="inputName", style="visibility: hidden;") #{usersData[i].username}
+              td #{usersData[i].phone}
+              td #{usersData[i].gender}
+              - for (var j = 0; j < usersData[i].daysChecked.length; j++) {
+                  - if (!(usersData[i].daysChecked[j])){
+                      td -
+                  - } else {
+                        td +
+                  - }
+              - }
+              td
+                img.img-responsive(src='/uploads/#{usersData[i].profileimage}', alt='profile', width="80" height="90")
+              - if(!user.adminFlag) continue;
+              td
+                input.btn.btn-warning(type="button", action="/admin/update", method="post", value="Edit", onClick="adminEdit(#{i})")
+                &nbsp;
+                a(href="/admin/delete/?username=#{usersData[i].username}")
+                  input.btn.btn-danger(type="button", method="post", value="Delete")
+      - }
+    
