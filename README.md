@@ -4,7 +4,7 @@ Friend Communication System using Node.JS
 Introduction
 ---
 A virtual communication website using Node js, Express js and Mongoose.
-
+[node-friend-communication-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
 Technology
 ---
 1. Node.js version 10.19.0
@@ -44,7 +44,7 @@ Model directory created using mongoose.<br />
 - phone (String)
 - name (String - full name)
 - gender (String)
-- daysChecked (Boolean[])
+- daysChecked (Boolean Array)
 - profileimage (String)
 - adminFlag (Boolean)
 
