@@ -10,7 +10,7 @@ A virtual communication website using Node js, Express js and Mongoose. <br />
 - Admin connect members page: <br />
 ![admin-members-page](https://github.com/RefaelBeker7/node-friend-communication-system/blob/main/members_admin.png)
 <br />
-[node-friend-communication-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
+![node-friend-communication-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
 
 
 Technology
