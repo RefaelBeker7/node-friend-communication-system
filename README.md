@@ -3,7 +3,7 @@ User management system using Node.JS
 
 Introduction
 ---
-A virtual user management website using Node js, Express js and Mongoose. <br />
+A web-based user management system powered by NodeJS, ExpressJS, and Mongoose. <br />
 [node-user-management-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
 <br />
 - User connect members page: <br />
