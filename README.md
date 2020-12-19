@@ -1,10 +1,10 @@
-# node-friend-communication-system
-Friend communication system using Node.JS
+# node-user-management-system
+User management system using Node.JS
 
 Introduction
 ---
-A virtual communication website using Node js, Express js and Mongoose. <br />
-[node-friend-communication-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
+A virtual user management website using Node js, Express js and Mongoose. <br />
+[node-user-management-system on Heroku](https://node-friend-communication-sys.herokuapp.com/)
 <br />
 - User connect members page: <br />
 ![user-members-page](https://github.com/RefaelBeker7/node-friend-communication-system/blob/main/members_user.png)
