@@ -5,8 +5,7 @@ Introduction
 ---
 A web-based user management system powered by NodeJS, ExpressJS, and Mongoose. <br />
 - Login page: <br />
-![user-members-page](https://github.com/RefaelBeker7/node-user-management-system/blob/main/login_page.png)
-<br />
+![login-page](https://github.com/RefaelBeker7/node-user-management-system/blob/main/login_page.png)
 - User connect members page: <br />
 ![user-members-page](https://github.com/RefaelBeker7/node-friend-communication-system/blob/main/members_user.png)
 - Admin connect members page: <br />
